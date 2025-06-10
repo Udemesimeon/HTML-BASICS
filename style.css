@@ -1,0 +1,82 @@
+*{font-size: large;
+margin: 0;padding: 0;}
+body{background-color: lightgrey;}
+
+.navbar{
+    height: 20px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+.nav{
+font-weight: bolder;
+font-size: xx-large;
+color: blueviolet;
+}
+/* .nav2{
+    display: flex;
+    margin-left: 800px; */
+
+.nav2 a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.A{
+   background-image: url(/IMAGE/pexels-omarhouc-752525.jpg); 
+    height: 500px;
+   margin-bottom: 50px;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.A h2{font-size: xx-large;}
+.A h1{font-size: 50px;}
+
+button{background-color: gold;
+border: none;
+padding: 10px;
+margin-left: 80px;
+color: white;}
+
+ .B{padding-left: 620PX;}
+.headerB{padding-left: 500px;}
+
+ .container1{
+    display: flex;
+    justify-content: center;
+}
+.container1 div{
+margin: 50px;
+}
+.container1 img{
+    height: 40px;
+    width: 40px;
+border-radius: 50px;
+}
+.container1 div{text-align: center;}
+.container2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.container2 img{height: 100px;width: 150px;
+}
+.container2 div{text-align: center;}
+
+.container3 img{height: 100px;width: 100px;
+     border-radius: 100px;
+    margin-top: 30px;
+     margin-right: 100px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
